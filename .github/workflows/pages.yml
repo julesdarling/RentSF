@@ -25,9 +25,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     env:
       DATABASE_URL: file:./pages.db
-      ALERT_RECIPIENT: hello@haggard.design
+      ALERT_RECIPIENT: jules@darlingandfriends.com
       NOMINATIM_USER_AGENT: RentSF GitHub Pages scraper (${{ github.repository }})
-      NOMINATIM_EMAIL: hello@haggard.design
+      NOMINATIM_EMAIL: jules@darlingandfriends.com
       PUBLIC_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
     steps:
       - name: Checkout

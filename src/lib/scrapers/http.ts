@@ -1,5 +1,5 @@
 const USER_AGENT =
-  "RentSF/0.1 (+https://localhost; personal rental search; contact hello@haggard.design)";
+  "RentSF/0.1 (+https://localhost; personal rental search; contact jules@darlingandfriends.com)";
 
 export async function fetchText(url: string, init?: RequestInit): Promise<string> {
   const response = await fetchWithRetry(url, init);
